@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to make a website with Login and Register form using HTML CSS & JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <!-- Top navigation start -->
+    <header>
+        <h1 class="brand">Logo</h1>
+        <nav class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="signin.html">sigin</a></li>
+            <li><a href="login.html">login</a></li>
+            
+        </nav>
+    </header>
+    <!-- form start -->
+</div>
+<div class="con-1">
+    <div class="card">
+        <img src="t2.jpg" alt="" style="width:100%">
+      
+        <p>
+            Learn how you can accelerate the development of enterprise-ready #LowCode apps and deploy them wherever you need. 
+            </p>
+      
+      </div>
+      <div class="card">
+        <img src="t1.avif" alt="" style="width:100%">
+      
+        <p>
+            Did you hear? Colombia is home to our 47th public cloud region! Get the details 
+            </p>
+      
+      </div>
+</div>
+
+</div>
+</div>
+    <div class="form">
+        <span class="icon-close">
+            <ion-icon name="close-outline"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#" id="form">
+                <div class="input-box">
+                    <input type="email" id="email" onkeyup="validate();" required>
+                    <span class="indicator-tick"><ion-icon name="checkmark-done-sharp"></ion-icon></span>
+                    <span class="indicator-cross"><ion-icon name="close-sharp"></ion-icon></span>
+                    <label for="">Email</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="password" onkeyup="validate();" required>
+                    <span class="indicator-tick-pwd"><ion-icon name="checkmark-done-sharp"></ion-icon></span>
+                    <span class="indicator-cross-pwd"><ion-icon name="close-sharp"></ion-icon></span>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox" required>
+                    Remember me</label>
+                    <a href="#">Forgot password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="login-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <!-- register form -->
+        <div class="form-box register">
+            <h2>Register</h2>
+            <form action="">
+                <div class="input-box">
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="input-box">
+                    <input type="email" required>
+                    <label for="">Email</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>
+                <div class="remember">
+                    <label for=""><input type="checkbox">
+                    I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="register-link">Login</a></p>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
